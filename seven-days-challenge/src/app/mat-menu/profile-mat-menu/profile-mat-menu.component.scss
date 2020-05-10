@@ -1,0 +1,32 @@
+.btn-login{
+  font-weight: 600;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-login:hover, .btn-login:active{
+  color: #2a2730;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
