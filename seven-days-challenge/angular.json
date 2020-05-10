@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "seven-days-challenge"
+    }
+  },
+  "defaultProject": "seven-days-challenge",
+  "cli": {
+    "analytics": false
+  }
 }
