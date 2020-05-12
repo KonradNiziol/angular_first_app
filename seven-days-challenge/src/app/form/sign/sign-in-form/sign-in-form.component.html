@@ -1,0 +1,19 @@
+<div class="form-center">
+  <h2>Login Form</h2>
+  <form class="form-container" [formGroup]="loginClientForm" (submit)="submitLoginForm()">
+
+    <mat-form-field class="form-input" appearance="outline">
+      <mat-label>Email</mat-label>
+      <input matInput loginClientForm="userEmail" placeholder="Ex. pat@example.com">
+    </mat-form-field>
+
+    <mat-form-field class="form-input" appearance="outline">
+      <mat-label>Password</mat-label>
+      <input matInput formControlName="userPassword" type="password"/>
+    </mat-form-field>
+
+    <button type="submit" mat-raised-button>
+      Zaloguj
+    </button>
+  </form>
+</div>

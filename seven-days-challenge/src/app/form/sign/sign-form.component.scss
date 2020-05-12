@@ -1,0 +1,17 @@
+h2 {
+  text-align: center;
+}
+
+.form-center {
+  margin: 100px auto;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-input {
+  width: 50%;
+}
