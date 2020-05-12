@@ -16,6 +16,21 @@
   width: 40px;
 }
 
+.back-icon {
+  margin-left: 20px;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+.back-icon:hover{
+  color: red;
+}
+
+.welcome-title{
+  margin-left: 40px;
+}
+
 .spacer {
   flex: 1;
 }
